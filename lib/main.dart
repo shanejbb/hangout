@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hangout/screens/wrapper.dart';
 
 void main() {
   runApp(MyApp());
@@ -6,5 +7,9 @@ void main() {
 
 class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {}
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: wrapper(),
+    );
+  }
 }
